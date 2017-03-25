@@ -160,7 +160,7 @@ footer {
 	margin: 10px;
 }
 
-button {
+.p_button {
 	color: #ffffff;
 	background-color: #4aaaa5;
 	border: none;
@@ -177,6 +177,9 @@ input {
 	margin-bottom: 20px;
 }
 
+.social li:hover {
+	border: 1px dashed green;
+}
 form > p {
 	margin: 0;
 }
@@ -220,7 +223,11 @@ textarea {
 	margin: 0 35px;
 	height: 200px;
 }
-
+	
+.folio0:hover, .folio1:hover, .folio2:hover, .folio3:hover, .folio4:hover {
+	color: lightpink;
+	opacity: 0.5;
+}
 .pic {
 	width: 200px;
 	display: block;
